@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&family=Rowdies&display=swap');
+:root{
+    --color-primario:orange;
+}
+body{
+    background-color:var(--color-primario);
+}
+h1 { color: rgb(68, 0, 255);
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+}
+h2 { color: red;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+}
+h4{
+    color: black;
+}
+table{
+    position:static;
+    left:400px;
+    top: 5px;
+}
+h5{
+ text-align: center;
+ font-family: monospace;
+ color: #a80f0f;
+ font-size: 40px;
+ top:15px;
+ 
+}
+th{
+    border: 1px solid #ccc;
+    background-color: #11cadb;
+    color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+}
+td{
+    border: 1px solid #ccc;
+    background-color: #3cdb27;
+    color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+}
+th:hover{
+background: #7ae8f4;
+}
+td:hover{
+    background: #51ff51;
+    }
+    aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    font-size: larger;
+}
+.word-color{
+    color:black;
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+}
